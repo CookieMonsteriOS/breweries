@@ -1,0 +1,49 @@
+/*
+
+ Table component styles
+
+*/
+
+table.brewery-table {
+    font-family: Verdana, Geneva, sans-serif;
+    border: 1px solid #1C6EA4;
+    background-color: #EEEEEE;
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+table.brewery-table td, table.brewery-table th {
+    border: 1px solid #AAAAAA;
+    padding: 3px 2px;
+}
+table.brewery-table tbody td {
+    font-size: 16px;
+}
+table.brewery-table tr:nth-child(even) {
+    background: #97C3FF;
+}
+table.brewery-table thead {
+    background: #106DFF;
+    background: -moz-linear-gradient(top, #4c91ff 0%, #287bff 66%, #106DFF 100%);
+    background: -webkit-linear-gradient(top, #4c91ff 0%, #287bff 66%, #106DFF 100%);
+    background: linear-gradient(to bottom, #4c91ff 0%, #287bff 66%, #106DFF 100%);
+    border-bottom: 2px solid #444444;
+}
+table.brewery-table thead th {
+    font-size: 17px;
+    font-weight: bold;
+    color: #FFFFFF;
+    border-left: 2px solid #D0E4F5;
+}
+table.brewery-table thead th:first-child {
+    border-left: none;
+}
+
+
+table.brewery-table tfoot .links a{
+    display: inline-block;
+    background: #1C6EA4;
+    color: #FFFFFF;
+    padding: 2px 8px;
+    border-radius: 5px;
+}
